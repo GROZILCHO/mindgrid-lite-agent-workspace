@@ -6,22 +6,21 @@
 
 ## Immediate Next Action
 
-Create a specialist handoff to the Strategy Agent or UX Design Agent for Bulgarian MVP flow refinement.
+Create Content SEO Agent output for refined Bulgarian user-facing copy.
 
 ## Action Queue
 
-- Review the initial handoff in `AGENT_HANDOFF.md`.
-- Define a practical Phase 1 / Phase 2 boundary.
-- Draft the Bulgarian MVP field set for the five-step request flow.
-- Draft anti-overpromise UX copy for request submission and confirmation.
-- Define admin/request handling expectations without promising CRM automation.
-- Prepare QA criteria for the request flow.
+- Review the Content SEO Agent handoff in `AGENT_HANDOFF.md`.
+- Refine Bulgarian field labels, helper text, microcopy, submit button language, and confirmation message.
+- Add website placement notes for the request flow explanation.
+- Send the refined copy output to QA Audit Agent.
+- Update project memory again after QA review.
 
 ## Approval Needed
 
-- Human confirmation of the Phase 1 MVP boundary before implementation planning.
-- Human confirmation that the wording avoids booking, pricing, payment, AI, GPS, and CRM overpromises.
+- Human review of final Bulgarian user-facing copy before implementation planning.
+- Human confirmation that the wording avoids booking, pricing, payment, AI, GPS, CRM, and full app overpromises.
 
 ## Blocked Items
 
-- WordPress implementation planning is blocked until product and UX clarification is complete.
+- WordPress implementation planning is blocked until Content SEO Agent output and QA Audit Agent review are complete.

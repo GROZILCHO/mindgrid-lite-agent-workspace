@@ -10,17 +10,21 @@ Project Lead Agent
 
 ## To
 
-Strategy Agent
+Content SEO Agent
 
 ## Handoff Purpose
 
-Clarify the practical Phase 1 / Phase 2 boundary and refine the Bulgarian MVP UX direction for the Mestimvsichko Smart Request Flow.
+Refine the Bulgarian user-facing copy for the Mestimvsichko Smart Request Flow Phase 1 MVP.
 
 ## Context
 
 Mestimvsichko.bg is a WordPress-based service website for moving, transport, loading/unloading, storage, and related services in the Varna region.
 
-The Smart Request Flow is the MVP for better request intake. It should help private clients and small businesses submit clearer service inquiries without promising automatic pricing, booking, payment, AI, GPS tracking, or full CRM automation.
+The Strategy Agent output `outputs/strategy-phase-boundary.md` has been completed and accepted.
+
+The UX Design Agent output `outputs/ux-bulgarian-mvp-flow-outline.md` has been completed and accepted.
+
+The Smart Request Flow is the MVP for better request intake. It should help private clients and small businesses submit clearer service inquiries without promising automatic pricing, booking, payment, AI, GPS tracking, full CRM automation, or full app functionality.
 
 The known MVP structure is:
 
@@ -32,23 +36,29 @@ The known MVP structure is:
 
 ## Requested Specialist Work
 
-- Define what belongs in Phase 1 MVP versus Phase 2 or later.
-- Clarify the Bulgarian field groups and user-facing labels at a practical UX level.
-- Identify where helper text is needed to reduce confusion.
-- Define anti-overpromise language so users understand this is a request, not a confirmed booking or final offer.
-- Preserve the strategic opportunity for a reusable Smart Request Flow pattern without making it a Phase 1 requirement.
+- Refine Bulgarian field labels for the five-step MVP flow.
+- Refine helper text so non-technical users understand what to enter.
+- Refine microcopy that prevents confusion about price, availability, and confirmation.
+- Refine request-vs-booking wording.
+- Refine submission button language.
+- Refine confirmation / thank-you message.
+- Add website placement notes for how the request flow should be introduced on the page.
 
 ## Do Not Do Yet
 
 - Do not request implementation.
+- Do not write PHP, CSS, JavaScript, plugin code, or technical implementation instructions.
 - Do not define plugin architecture.
-- Do not promise automatic pricing, online payment, booking, GPS tracking, AI automation, or full CRM automation.
+- Do not request payment, booking, pricing, AI, GPS, CRM, or full app functionality.
+- Do not promise automatic pricing, online payment, booking, GPS tracking, AI automation, full CRM automation, or full app behavior.
 - Do not invent client approvals.
 
 ## Expected Output
 
-- Phase 1 / Phase 2 boundary.
-- Bulgarian MVP UX clarification.
-- Anti-overpromise wording recommendations.
+- Refined Bulgarian user-facing copy.
+- Final candidate field labels and helper text.
+- Request-vs-booking copy.
+- Submit button and confirmation message recommendations.
+- Website placement notes.
 - Open questions for human approval.
-- Recommended next handoff.
+- Recommended handoff to QA Audit Agent.
