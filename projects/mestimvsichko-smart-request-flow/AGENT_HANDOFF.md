@@ -14,7 +14,7 @@ Strategy Agent
 
 ## Handoff Purpose
 
-Prepare a client/demo explanation package outline for the Mestimvsichko Smart Request Flow Phase 1 MVP.
+Prepare a short client-facing presentation, script, or checklist only if the project lead decides to proceed with presentation preparation.
 
 ## Context
 
@@ -28,40 +28,38 @@ The Content SEO Agent output `outputs/content-bulgarian-copy-refinement.md` has 
 
 The QA Audit Agent consolidated review `outputs/qa-consolidated-mvp-review.md` has been completed and accepted with verdict: Conditional Pass.
 
-The Smart Request Flow is the MVP for better request intake. It should help private clients and small businesses submit clearer service inquiries without promising automatic pricing, booking, payment, AI, GPS tracking, full CRM automation, or full app functionality.
+The Strategy Agent client/demo explanation package outline `outputs/client-demo-explanation-package-outline.md` has been completed and accepted.
 
-The known MVP structure is:
+The package is for explanation and expectation management only. It is not implemented functionality and is not a confirmed WordPress build plan.
 
-1. Service type selection.
-2. Addresses and access conditions.
-3. Items, inventory, or what needs to be moved.
-4. Photos and additional services.
-5. Contact details and submission.
+Implementation execution is not approved. Implementation planning remains gated by human/project lead review, client validation, and unresolved clarifications.
 
 ## Requested Specialist Work
 
-- Prepare an outline for explaining the Phase 1 MVP to Nikola / "Колеца".
-- Use the accepted Strategy, UX, Content, and QA outputs as source material.
-- Explain the MVP as a structured request form, not a full app.
-- Explain the value: clearer inquiries, better first contact, less back-and-forth, and practical request details.
-- Include caveats from QA: privacy wording, service labels, contact methods, upload handling, and staff response workflow still need validation.
-- Keep the package suitable for discussion/demo framing, not implementation.
+If the project lead decides to prepare presentation material, create a short client-facing presentation, script, or checklist that:
+
+- explains the Smart Request Flow as a structured request form;
+- keeps the discussion practical and non-technical;
+- helps Nikola / "Колеца" understand the Phase 1 boundary;
+- highlights that the client sends a request, not a confirmed booking;
+- lists validation questions for service labels, contact methods, uploads, privacy wording, and staff response workflow;
+- supports expectation management before any implementation planning.
 
 ## Do Not Do Yet
 
 - Do not request implementation.
-- Do not write PHP, CSS, JavaScript, plugin code, or technical implementation instructions.
+- Do not write PHP, CSS, JavaScript, plugin code, form-builder setup, database logic, or technical implementation instructions.
 - Do not define plugin architecture.
-- Do not request payment, booking, pricing, AI, GPS, CRM, or full app functionality.
+- Do not request payment, booking, pricing automation, AI, GPS, CRM, or full app functionality.
 - Do not promise automatic pricing, online payment, booking, GPS tracking, AI automation, full CRM automation, or full app behavior.
-- Do not invent client approvals.
+- Do not claim client approval.
 
 ## Expected Output
 
-- Client/demo explanation package outline.
+- Short client-facing presentation, script, or checklist if approved by the project lead.
 - Clear Phase 1 framing.
-- What to show or explain to Nikola / "Колеца".
-- What not to promise.
-- Validation questions for service labels, contact methods, uploads, privacy, and staff workflow.
-- Open questions for human approval.
+- Non-technical explanation language.
+- Scope-control language.
+- Validation questions.
+- Open questions for human/client review.
 - Recommended next handoff.

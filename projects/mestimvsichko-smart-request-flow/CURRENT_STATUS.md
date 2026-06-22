@@ -24,7 +24,11 @@ The QA Audit Agent consolidated MVP review `outputs/qa-consolidated-mvp-review.m
 
 QA verdict: Conditional Pass.
 
-The Strategy, UX, and Content package is ready for client/demo explanation with caveats.
+The Strategy, UX, Content, consolidated QA, and client/demo explanation outputs are aligned.
+
+The Strategy Agent client/demo explanation package outline `outputs/client-demo-explanation-package-outline.md` has been completed and accepted.
+
+The project is ready for internal human/project lead review before deciding whether to present the explanation package to Nikola / "Колеца".
 
 Implementation execution has not started and is not approved. No WordPress files, plugin files, code files, or production changes are included in the current project state.
 
@@ -39,13 +43,14 @@ Implementation execution has not started and is not approved. No WordPress files
 
 ## Next Work
 
-Project Lead should decide whether to prepare a client/demo package or prepare an implementation planning brief after human review.
+Project Lead should review the client/demo explanation package outline and decide whether to present it to Nikola / "Колеца" or prepare a shorter presentation, script, or checklist first.
 
 ## Blockers
 
-- Human review of the QA findings is still needed.
+- Human/project lead review of the client/demo explanation package is still needed.
+- Client validation is still needed before implementation planning.
 - Service option labels and contact methods need client validation.
 - Privacy/consent wording needs human/legal review before publication.
 - Upload file size, storage, validation, and retention need later technical planning.
 - Staff response workflow is not yet defined.
-- WordPress implementation planning remains blocked until human review and remaining clarifications are handled.
+- WordPress implementation planning remains blocked until human/client validation and unresolved clarifications are handled.
