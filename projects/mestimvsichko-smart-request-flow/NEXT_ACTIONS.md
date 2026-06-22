@@ -6,21 +6,21 @@
 
 ## Immediate Next Action
 
-Create Content SEO Agent output for refined Bulgarian user-facing copy.
+Run QA Audit Agent consolidated review of Strategy, UX, and Content outputs.
 
 ## Action Queue
 
-- Review the Content SEO Agent handoff in `AGENT_HANDOFF.md`.
-- Refine Bulgarian field labels, helper text, microcopy, submit button language, and confirmation message.
-- Add website placement notes for the request flow explanation.
-- Send the refined copy output to QA Audit Agent.
-- Update project memory again after QA review.
+- Review the QA Audit Agent handoff in `AGENT_HANDOFF.md`.
+- Check `outputs/strategy-phase-boundary.md`, `outputs/ux-bulgarian-mvp-flow-outline.md`, and `outputs/content-bulgarian-copy-refinement.md` together.
+- Identify whether the MVP package is ready for client/demo preparation.
+- Record required corrections, if any.
+- After QA, perform another documentation sync.
 
 ## Approval Needed
 
-- Human review of final Bulgarian user-facing copy before implementation planning.
-- Human confirmation that the wording avoids booking, pricing, payment, AI, GPS, CRM, and full app overpromises.
+- Human review of QA findings before client/demo preparation.
+- Human confirmation before any implementation planning starts.
 
 ## Blocked Items
 
-- WordPress implementation planning is blocked until Content SEO Agent output and QA Audit Agent review are complete.
+- WordPress implementation planning is blocked until consolidated QA review is complete and any required corrections are handled.
