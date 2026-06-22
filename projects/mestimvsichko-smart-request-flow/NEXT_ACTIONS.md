@@ -6,21 +6,23 @@
 
 ## Immediate Next Action
 
-Run QA Audit Agent consolidated review of Strategy, UX, and Content outputs.
+Human/project lead review of the QA findings and conditional pass.
 
 ## Action Queue
 
-- Review the QA Audit Agent handoff in `AGENT_HANDOFF.md`.
-- Check `outputs/strategy-phase-boundary.md`, `outputs/ux-bulgarian-mvp-flow-outline.md`, and `outputs/content-bulgarian-copy-refinement.md` together.
-- Identify whether the MVP package is ready for client/demo preparation.
-- Record required corrections, if any.
-- After QA, perform another documentation sync.
+- Review `outputs/qa-consolidated-mvp-review.md`.
+- Decide whether to prepare a client/demo explanation package.
+- Validate service option labels and contact methods with the client before implementation planning.
+- Confirm privacy/consent wording needs human/legal review before publication.
+- Keep implementation planning gated until human review and remaining clarifications are handled.
+- Do not start WordPress implementation yet.
 
 ## Approval Needed
 
 - Human review of QA findings before client/demo preparation.
+- Human decision on whether to prepare a client/demo explanation package next.
 - Human confirmation before any implementation planning starts.
 
 ## Blocked Items
 
-- WordPress implementation planning is blocked until consolidated QA review is complete and any required corrections are handled.
+- WordPress implementation planning is blocked until human review, client validation, privacy review path, upload expectations, and staff response workflow are clarified.
