@@ -2,7 +2,7 @@
 
 ## Date
 
-2026-06-22
+2026-06-23
 
 ## From
 
@@ -14,52 +14,79 @@ Strategy Agent
 
 ## Handoff Purpose
 
-Prepare a short client-facing presentation, script, or checklist only if the project lead decides to proceed with presentation preparation.
+Create an offer scope mapping document before any final offer, pricing, or production implementation planning.
 
 ## Context
 
 Mestimvsichko.bg is a WordPress-based service website for moving, transport, loading/unloading, storage, and related services in the Varna region.
 
-The Strategy Agent output `outputs/strategy-phase-boundary.md` has been completed and accepted.
+The accepted planning and review outputs are:
 
-The UX Design Agent output `outputs/ux-bulgarian-mvp-flow-outline.md` has been completed and accepted.
+- `outputs/strategy-phase-boundary.md`
+- `outputs/ux-bulgarian-mvp-flow-outline.md`
+- `outputs/content-bulgarian-copy-refinement.md`
+- `outputs/qa-consolidated-mvp-review.md`
+- `outputs/client-demo-explanation-package-outline.md`
+- `outputs/implementation-repository-status-integration.md`
 
-The Content SEO Agent output `outputs/content-bulgarian-copy-refinement.md` has been completed and accepted.
+The implementation repository status integration confirms that an existing WordPress plugin demo / release-candidate implementation exists in `../mindgrid-request-system`.
 
-The QA Audit Agent consolidated review `outputs/qa-consolidated-mvp-review.md` has been completed and accepted with verdict: Conditional Pass.
+Confirmed repo facts:
 
-The Strategy Agent client/demo explanation package outline `outputs/client-demo-explanation-package-outline.md` has been completed and accepted.
+- GitHub repo: `https://github.com/GROZILCHO/mindgrid-request-system`
+- Branch: `develop`
+- Latest relevant commit: `77c64a1 merge: sprint 6 demo estimate preview into develop`
+- Latest relevant tag: `v0.6.0-rc.1`
+- The repo includes a Bulgarian multi-step request flow, admin-post submission, CPT request creation, admin summary, demo estimate preview, live estimate panel, and server-side estimate recalculation.
+- The repo does not include an upload system, payment, Google Maps integration, AI, booking/calendar, or full CRM.
 
-The package is for explanation and expectation management only. It is not implemented functionality and is not a confirmed WordPress build plan.
+Project-lead-reported context, not repository proof:
 
-Implementation execution is not approved. Implementation planning remains gated by human/project lead review, client validation, and unresolved clarifications.
+- Staging page reportedly uses `[mindgrid_request_flow]`.
+- Demo/client discussion status is GO.
+- Production/live status is HOLD.
+- Nikola / "Koleca" reportedly saw the direction and asked for an offer.
+
+Important boundary:
+
+- Existing demo/RC implementation exists.
+- Production execution is not approved.
+- Offer scope still needs mapping and approval.
 
 ## Requested Specialist Work
 
-If the project lead decides to prepare presentation material, create a short client-facing presentation, script, or checklist that:
+Create an offer scope mapping document that compares:
 
-- explains the Smart Request Flow as a structured request form;
-- keeps the discussion practical and non-technical;
-- helps Nikola / "Колеца" understand the Phase 1 boundary;
-- highlights that the client sends a request, not a confirmed booking;
-- lists validation questions for service labels, contact methods, uploads, privacy wording, and staff response workflow;
-- supports expectation management before any implementation planning.
+- accepted Strategy, UX, Content, and QA outputs;
+- the client/demo explanation outline;
+- the implementation repository status;
+- client-reported approval of direction;
+- remaining risks and unknowns.
+
+The mapping should separate:
+
+- Phase 1 paid scope;
+- optional Phase 1 hardening;
+- Phase 2 optional modules;
+- explicitly excluded or not-yet-approved scope;
+- assumptions and client validation questions;
+- production approval gates.
 
 ## Do Not Do Yet
 
-- Do not request implementation.
-- Do not write PHP, CSS, JavaScript, plugin code, form-builder setup, database logic, or technical implementation instructions.
-- Do not define plugin architecture.
-- Do not request payment, booking, pricing automation, AI, GPS, CRM, or full app functionality.
-- Do not promise automatic pricing, online payment, booking, GPS tracking, AI automation, full CRM automation, or full app behavior.
-- Do not claim client approval.
+- Do not write the final offer yet.
+- Do not propose prices yet.
+- Do not request implementation code.
+- Do not write PHP, CSS, JavaScript, plugin work, or technical implementation instructions.
+- Do not request payment, booking, pricing automation, AI, GPS, CRM, uploads, Google Maps, or full app functionality as approved scope.
+- Do not claim production approval.
+- Do not treat project-lead-reported client context as formal client approval beyond "direction reportedly approved / client asked for offer."
 
 ## Expected Output
 
-- Short client-facing presentation, script, or checklist if approved by the project lead.
-- Clear Phase 1 framing.
-- Non-technical explanation language.
-- Scope-control language.
-- Validation questions.
-- Open questions for human/client review.
+- Offer scope mapping document.
+- Clear distinction between existing demo/RC implementation and future paid production scope.
+- Clear Phase 1 / Phase 2 separation.
+- Scope-control notes for the final offer.
+- Open questions for human/project lead and client validation.
 - Recommended next handoff.
