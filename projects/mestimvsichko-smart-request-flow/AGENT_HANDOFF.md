@@ -14,7 +14,7 @@ Strategy Agent
 
 ## Handoff Purpose
 
-Create an offer scope mapping document before any final offer, pricing, or production implementation planning.
+Prepare a PM Assistant / Project Lead offer-review packet summary from the accepted offer scope mapping. This is not a final offer.
 
 ## Context
 
@@ -28,6 +28,7 @@ The accepted planning and review outputs are:
 - `outputs/qa-consolidated-mvp-review.md`
 - `outputs/client-demo-explanation-package-outline.md`
 - `outputs/implementation-repository-status-integration.md`
+- `outputs/offer-scope-mapping.md`
 
 The implementation repository status integration confirms that an existing WordPress plugin demo / release-candidate implementation exists in `../mindgrid-request-system`.
 
@@ -51,26 +52,23 @@ Important boundary:
 
 - Existing demo/RC implementation exists.
 - Production execution is not approved.
-- Offer scope still needs mapping and approval.
+- Offer scope mapping has been completed and accepted as planning input.
+- Final offer is not created.
+- Pricing is not defined.
+- PM Assistant / Project Lead review is still required before commercial offer preparation.
 
 ## Requested Specialist Work
 
-Create an offer scope mapping document that compares:
+Prepare a concise offer-review packet summary for PM Assistant / Project Lead review.
 
-- accepted Strategy, UX, Content, and QA outputs;
-- the client/demo explanation outline;
-- the implementation repository status;
-- client-reported approval of direction;
-- remaining risks and unknowns.
+The summary should cover:
 
-The mapping should separate:
-
-- Phase 1 paid scope;
-- optional Phase 1 hardening;
-- Phase 2 optional modules;
-- explicitly excluded or not-yet-approved scope;
-- assumptions and client validation questions;
-- production approval gates.
+- what the offer scope mapping recommends;
+- what remains undecided before final offer writing;
+- what exact client/demo facts still need confirmation;
+- where pricing, schedule, and commercial terms must wait for PM Assistant / Project Lead judgment;
+- what must stay out of scope unless separately approved;
+- why production execution remains blocked.
 
 ## Do Not Do Yet
 
@@ -84,9 +82,9 @@ The mapping should separate:
 
 ## Expected Output
 
-- Offer scope mapping document.
-- Clear distinction between existing demo/RC implementation and future paid production scope.
-- Clear Phase 1 / Phase 2 separation.
-- Scope-control notes for the final offer.
-- Open questions for human/project lead and client validation.
-- Recommended next handoff.
+- PM Assistant / Project Lead offer-review packet summary.
+- Clear commercial boundary: planning input only, not final offer.
+- Clear note that pricing, schedule, and final commitments are not approved.
+- Clear production boundary: production/live remains HOLD.
+- Open questions for PM Assistant, Project Lead, and client validation.
+- Recommended next handoff after review.
