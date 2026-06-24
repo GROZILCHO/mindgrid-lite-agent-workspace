@@ -701,6 +701,14 @@ Progress означава:
 
 Automation не трябва да премахва approval gates. Тя трябва да премахва ръчното прехвърляне на контекст.
 
+## Repository Safety Protocol
+
+See `REPOSITORY_SAFETY.md` before starting repository work.
+
+Repository identity must be verified before any task. No task starts without target repo, absolute path, branch check, allowed files, forbidden files, and stop conditions.
+
+Control repo work and implementation repo work must not be mixed. Project memory stays in `mindgrid-lite-agent-workspace`; project code stays in separate implementation repos.
+
 ## 19. Core Rule
 
 Ако системата създава повече copy/paste, повече micro-QA, повече commit cycles и повече manual transfer, процесът трябва да се опрости.
